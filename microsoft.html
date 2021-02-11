@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MS OFFICE ICONS</title>
+</head>
+<body>
+    <div class="doc">
+        <div class="word"></div>
+        <div class="layer layer--1"></div>
+        <div class="layer layer--2"></div>
+        <div class="layer layer--3"></div>
+        <div class="layer layer--4"></div>  
+    </div>
+    <div class="xls">
+        <div class="excel"></div>
+        <div class="column"></div>
+        <div class="layer layerx--1"></div>
+        <div class="layer layerx--2"></div>
+        <div class="layer layerx--3"></div>
+        <div class="layer layerx--4"></div>
+    </div>
+    <div class="ppt">
+        <div class="powerpoint"></div>
+        <div class="ppt-left"></div>
+        <div class="ppt-right"></div>
+    </div>
+    <style>
+        html,body{
+            height: 100%;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(#00abec,#53d0ff);
+        }
+        .doc{
+            margin-right: 10%;
+            position: relative;
+            background: grey;
+            width: 150px;
+            height: 180px;
+            border-radius: 10px;
+            transition: box-shadow 0.4s;
+        }
+        .xls{
+            position: relative;
+            background: grey;
+            width: 150px;
+            height: 180px;
+            border-radius: 10px;
+            margin-right: 10%;
+            transition: box-shadow 0.4s;
+        }
+        .ppt{
+            position: relative;
+            background: linear-gradient(180deg,#fe906a 40%,
+            #d35232 100%);
+            width: 180px;
+            height: 180px;
+            border-radius: 100%;
+            transition: box-shadow 0.4s;
+        }
+        .powerpoint{
+            z-index: 20;
+            position: absolute;
+            height: 90px;
+            width: 90px;
+            background: linear-gradient(#c54424,#bc3819);
+            top: 25%;
+            right: 65%;
+            border-radius: 10px;
+            box-shadow: 6px 0px 0px #00000020,10px -4px 0px
+            #00000010,10px 4px 0px #00000010;
+        }
+        .excel{
+            z-index: 20;
+            position: absolute;
+            height: 90px;
+            width: 90px;
+            background: linear-gradient(#17874e,#0e6b35);
+            top: 25%;
+            right: 65%;
+            border-radius: 10px;
+            box-shadow: 6px 0px 0px #00000020,10px -4px 0px
+            #00000010,10px 4px 0px #00000010;
+        }
+        .column{
+            border-radius: 10px 0px 0px 0px;
+            z-index: 10;
+            position: absolute;
+            background: #185c3780;
+            width: 80px;
+            height: 100%;
+        }
+        .word{
+            z-index: 10;
+            position: absolute;
+            height: 90px;
+            width: 90px;
+            background: linear-gradient(#1d60c0,#1653b6);
+            top: 25%;
+            right: 65%;
+            border-radius: 10px;
+            box-shadow: 6px 0px 0px #00000020,10px -4px 0px
+            #00000010,10px 4px 0px #00000010;
+        }
+        .word::before{
+            position: absolute;
+            top: 25%;
+            left: 26%;
+            content: "W";
+            font-size: 48px;
+            color: white;
+            font-family: "Arial",sans-serif;
+        }
+        .excel::before{
+            position: absolute;
+            top: 25%;
+            left: 34%;
+            content: "X";
+            font-size: 48px;
+            color: white;
+            font-family: "Arial",sans-serif;
+        }
+        .powerpoint::before{
+            position: absolute;
+            top: 25%;
+            left: 34%;
+            content: "P";
+            font-size: 48px;
+            color: white;
+            font-family: "Arial",sans-serif;
+        }
+        .ppt-left{
+            z-index: 10;
+            position: absolute;
+            top: 0;
+            left: -4px;
+            width: 98px;
+            height: 100px;
+            background: #ee6b47;
+            border-radius: 100% 0px 0px 0px;
+        }
+        .ppt-right{
+            z-index: 10;
+            position: absolute;
+            top: 0px;
+            left: 94px;
+            width: 85px;
+            height: 100px;
+            background: #fe906a;
+            border-radius: 0px 100% 0px 0px;
+        }
+        .layer{
+            position: absolute;
+            width: 150px;
+            height: 45px;
+        }
+        .layer--1{
+            background: #42a5ee;
+            border-radius: 10px 10px 0px 0px;
+            top: 0px;
+        }
+        .layer--2{
+            background: #2b7dd3;
+            border-radius: 0px 0px 0px 0px;
+            top: 45px;
+        }
+        .layer--3{
+            background: #175bbe;
+            border-radius: 0px 0px 0px 0px;
+            top: 90px;
+        }
+        .layer--4{
+            background: #103f90;
+            border-radius: 0px 0px 10px 10px;
+            top: 135px;
+        }
+        .layerx--1{
+            background: #34c380;
+            border-radius: 10px 10px 0px 0px;
+            top: 0px;
+        }
+        .layerx--2{
+            background: #20a366;
+            border-radius: 0px 0px 0px 0px;
+            top: 45px;
+        }
+        .layerx--3{
+            background: #0e7c41;
+            border-radius: 0px 0px 0px 0px;
+            top: 90px;
+        }
+        .layerx--4{
+            background: #185c37;
+            border-radius: 0px 0px 10px 10px;
+            top: 135px;
+        }
+        .doc:hover{
+            box-shadow: 0px 5px 15px #1172b9;
+        }
+        .xls:hover{
+            box-shadow: 0px 5px 15px #1f724b;
+        }
+        .ppt:hover{
+            box-shadow: 0px 5px 15px #fd4505;
+        }
+    </style>
+</body>
+</html>
